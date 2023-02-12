@@ -1,6 +1,8 @@
+
 export const FooterContent=[
     {
         title:'About',
+        type:'navigation',
         linksUrl:[
             ['About Cinnamon Hotels & Resorts','https://www.cinnamonhotels.com/about-us'],
             ['Media & Accolades','https://www.cinnamonhotels.com/media-accolades'],
@@ -13,5 +15,42 @@ export const FooterContent=[
             ['Terms & Conditions','https://www.cinnamonhotels.com/terms-and-conditions'],
             ['Privacy Statement','https://www.cinnamonhotels.com/privacy-statement']
         ]
-    }
+    },
+    {
+        title:'Get In Touch',
+        type:'navigation',
+        linksUrl:[
+            ['Know Sri Lanka','https://www.cinnamonhotels.com/about-us'],
+            ['Know Maldives','https://www.cinnamonhotels.com/media-accolades'],
+            ['Contact Us','https://www.cinnamonhotels.com/gallery']
+        ]
+    },
+    {
+        title:'Sections',
+        type:'navigation',
+        linksUrl:[
+            ['Know Sri Lanka','https://www.cinnamonhotels.com/about-us'],
+            ['Know Maldives','https://www.cinnamonhotels.com/media-accolades'],
+            ['Contact Us','https://www.cinnamonhotels.com/gallery'],
+        ]
+    },
+    // {
+    //     title:'Follow Us',
+    //     type:'socialMedia',
+    //     linksUrl:[
+    //         ['<FaFacebookF/>','https://www.cinnamonhotels.com/about-us'],
+    //         ['<FaFacebookF/>','https://www.cinnamonhotels.com/media-accolades'],
+    //         ['<FaFacebookF/>','https://www.cinnamonhotels.com/gallery'],
+    //     ]
+    // },
+    // {
+    //     title:'Get Cinnamon in your inbox',
+    //     type:'searchBar',
+    //     linksUrl:[
+    //         ['Know Sri Lanka','https://www.cinnamonhotels.com/about-us'],
+    //         ['Know Maldives','https://www.cinnamonhotels.com/media-accolades'],
+    //         ['Contact Us','https://www.cinnamonhotels.com/gallery'],
+    //     ]
+    // }
+    
 ]

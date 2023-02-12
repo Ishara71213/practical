@@ -1,0 +1,89 @@
+.headerOne{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 140px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 12px;
+    color: #333;
+}
+.headerOne ul{
+    list-style: none;
+    display: flex;
+    height: 40px;
+}
+.header li{
+    cursor: pointer;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    color: #333;
+}
+
+.linkNav::after{
+    content: "";
+    width: 1px;
+    height: 16px;
+    border: solid #333;;
+    border-width: 0 1.5px 0 0;
+    padding-left:24px;
+}
+
+.icon-pa{
+    padding-right: 10px;
+    color: #333;
+}
+.headerTwo{
+    background-color: #333;
+    /* height: 45px; */
+}
+.headerTwo ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+.headerTwo li{
+    cursor: pointer;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    padding: 12px 30px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.headerTwo li:hover{
+    
+    color:#333;
+    background-color: #ffffff;
+}.icon-h2::before{
+    content: '';
+  position: absolute;
+  border-radius: 50%;
+  width: 500%;
+  height: 500%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index:-1;
+  border:1px solid green; /* for demo purposes */
+}
+.icon-h2:hover{
+
+    
+}
+.icon-h2{
+    padding-left: 8px;
+}
+@media only screen and (max-width: 920px){
+    .headerOne{
+        display: none;
+    
+    }
+    .headerTwo{
+       display: none;
+    }
+
+}
